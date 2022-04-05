@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A tribute page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <!-- User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements. -->
+
+
+    <main id="main">
+
+        <!-- User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug"). -->
+
+
+        <h1 id="title">A tribute to Great Professor</h1>
+
+        <!-- User Story #3:** I should see either a figure or a div element with a corresponding id="img-div".
+
+        User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+
+        User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div. -->
+
+        <div id="img-div">
+            <img src="https://hbr.org/resources/images/article_assets/2010/07/R1007B-IVAN.jpg" alt="">
+            <p id="img-caption"></p>
+        </div>
+
+        <!-- User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. -->
+
+        <section id="tribute-info">
+           <h2>Doing deals doesn't yield the deep rewards that come from building up people.</h2> 
+            <p> As the students discuss the answers to these questions, I open my own life to them as a case study of
+                sorts, to illustrate how they can use the theories from our course to guide their life decisions.</p><p> One of the theories that gives great insight on the first question—how to be sure we find happiness in
+                our careers—is from Frederick Herzberg, who asserts that the powerful motivator in our lives isn't
+                money; it's the opportunity to learn, grow in responsibilities, contribute to others, and be recognized
+                for achievements. I tell the students about a vision of sorts I had while I was running the company I
+                founded before becoming an academic. In my mind's eye I saw one of my managers leave for work one
+                morning with a relatively strong level of self-esteem. Then I pictured her driving home to her family 10
+                hours later, feeling unappreciated, frustrated, underutilized, and demeaned. I imagined how profoundly
+                her lowered self-esteem affected the way she interacted with her children. The vision in my mind then
+                fast-forwarded to another day, when she drove home with greater self-esteem—feeling that she had learned
+                a lot, been recognized for achieving valuable things, and played a significant role in the success of
+                some important initiatives. I then imagined how positively that affected her as a spouse and a parent.
+                My conclusion: Management is the most noble of professions if it's practiced well. No other occupation
+                offers as many ways to help others learn and grow, take responsibility and be recognized for
+                achievement, and contribute to the success of a team. More and more MBA students come to school thinking
+                that a career in business means buying, selling, and investing in companies. That's unfortunate. Doing
+                deals doesn't yield the deep rewards that come from building up people.
+            </p> <p>I want students to leave my classroom knowing that. </p>
+
+
+
+            <!-- User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank"). -->
+
+            <a href="https://hbr.org/2010/07/how-will-you-measure-your-life" id="tribute-link" target="_blank">How Will You Measure Your Life?</a>
+        </section>
+        <!-- 
+        User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+
+User Story #9: The img element should be centered within its parent element. -->
+
+    </main>
+</body>
+
+</html>
